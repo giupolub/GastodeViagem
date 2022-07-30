@@ -3,17 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#69BAE6"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@drawable/shape_background"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/edit_distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_distance2"
+        android:drawablePadding="5dp"
+        android:drawableTint="@color/blue_1"
         android:hint="@string/distance"
         android:inputType="numberDecimal"
+        android:textColorHint="@color/blue_1"
         android:textStyle="bold" />
 
     <TextView
@@ -29,8 +33,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:drawableStart="@drawable/ic_money"
+        android:drawablePadding="5dp"
+        android:drawableTint="@color/blue_1"
         android:hint="@string/price"
         android:inputType="numberDecimal"
+        android:textColorHint="@color/blue_1"
         android:textStyle="bold" />
 
     <TextView
@@ -46,8 +54,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:drawableStart="@drawable/ic_autonomy"
+        android:drawablePadding="5dp"
+        android:drawableTint="@color/blue_1"
         android:hint="@string/autonomy"
         android:inputType="numberDecimal"
+        android:textColorHint="@color/blue_1"
         android:textStyle="bold" />
 
     <TextView
@@ -59,6 +71,7 @@
         android:textStyle="bold" />
 
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
@@ -85,7 +98,7 @@
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:layout_marginTop="32dp"
-        android:backgroundTint="@color/teal_700"
+        android:backgroundTint="#0E5091"
         android:text="@string/calculate"
         android:textSize="16sp"
         android:textStyle="bold" />
